@@ -2,7 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 @font-face {
-	font-family: helvetica;
+	font-family: 'Roboto', sans-serif;
 }
 
 body, html { font-size: 100%; 	padding: 0; margin: 0;}
@@ -28,18 +28,19 @@ body, html { font-size: 100%; 	padding: 0; margin: 0;}
 }
 
 body {
-    font-family: 'Lato', Calibri, Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #47a3da;
+    font-size: 14px;
 
 }
 
 a {
-	color: #f0f0f0;
+	color: #f4f4f4;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #000;
+	color: #4a4a4a;
 }
 
 .main,
@@ -79,70 +80,8 @@ a:hover {
 	list-style: none;
 	padding-right: 20px;
 }
-/*
-.container > header nav a {
-	display: block;
-	float: left;
-	position: relative;
-	width: 2.5em;
-	height: 2.5em;
-	background: #fff;
-	border-radius: 50%;
-	color: transparent;
-	margin: 0 0.1em;
-	border: 4px solid #47a3da;
-	text-indent: -8000px;
-}
 
-.container > header nav a:after {
-	content: attr(data-info);
-	color: #47a3da;
-	position: absolute;
-	width: 600%;
-	top: 120%;
-	text-align: right;
-	right: 0;
-	opacity: 0;
-	pointer-events: none;
-}
-
-.container > header nav a:hover:after {
-	opacity: 1;
-}
-
-.container > header nav a:hover {
-	background: #47a3da;
-}
-
-*/
-
-.icon-drop:before, 
-.icon-arrow-left:before {
-	font-family: 'fontawesome';
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	line-height: 2;
-	text-align: center;
-	color: #47a3da;
-	-webkit-font-smoothing: antialiased;
-	text-indent: 8000px;
-	padding-left: 8px;
-}
 
 .container > header nav a:hover:before {
 	color: #fff;
 }
-
-.icon-drop:before {
-	content: "\e000";
-}
-
-.icon-arrow-left:before {
-	content: "\f060";
-}
-

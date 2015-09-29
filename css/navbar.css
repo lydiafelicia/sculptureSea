@@ -1,0 +1,201 @@
+/*clearfix3 for gallery*/
+
+.clearfix3 {
+	color: #f4f4f4;
+	font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    background-color: rgba(51, 122, 183, 0);
+    width: 100%;
+    padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.clearfix3 li:hover{
+	color: #4a4a4a;
+
+}
+
+.clearfix3 span {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	padding-left: 20px;
+	float: left;
+	line-height: 3;
+
+}
+.clearfix3 li{
+	float: right;
+	list-style: none;
+	padding-right: 20px;
+	color: #f4f4f4;
+	font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+}
+
+.clearfix3 a {
+	color: #f4f4f4;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.clearfix3 a:hover {
+	color: #4a4a4a;
+	text-decoration: none;
+}
+
+
+/*clearfix*/
+
+.clearfix {
+	background-color: #337ab7;
+	width: 100%;
+	position: absolute;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 3;
+}
+
+.clearfix span {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	padding-left: 20px;
+	float: left;
+	line-height: 3;
+
+}
+.clearfix li{
+	float: right;
+	list-style: none;
+	padding-right: 20px;
+	color: #f4f4f4;
+	font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+}
+
+.clearfix li:hover{
+	color: #4a4a4a;
+	
+}
+
+.clearfix a {
+	color: #f4f4f4;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.clearfix a:hover {
+	color: #4a4a4a;
+	text-decoration: none;
+}
+
+
+/* Support.html */
+
+.clearfix2 {
+	background-color: #337ab7;
+	width: 100%;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 3;
+}
+
+.clearfix2 span {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	padding-left: 20px;
+	float: left;
+	line-height: 3;
+
+}
+.clearfix2 li{
+	float: right;
+	list-style: none;
+	padding-right: 20px;
+	color: #f4f4f4;
+	font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.clearfix2 li:hover{
+	color: #4a4a4a;
+	
+}
+
+.clearfix2 a {
+	color: #f4f4f4;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.clearfix2 a:hover {
+	color: #4a4a4a;
+	text-decoration: none;
+}
+
+
+/* transparent */
+.clearfix-trans {
+	width: 100%;
+	position: absolute;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	z-index: 3;
+}
+
+.clearfix-trans  span {
+	display: block;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;
+	padding-left: 20px;
+	float: left;
+	line-height: 3;
+
+}
+.clearfix-trans  li{
+	float: right;
+	list-style: none;
+	padding-right: 20px;
+	color: #f4f4f4;
+	font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    text-transform: uppercase;
+
+}
+
+.clearfix-trans  li:hover{
+	color: #4a4a4a;
+	
+}
+.clearfix-trans  a {
+	color: #f4f4f4;
+	text-decoration: none;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.clearfix-trans  a:hover {
+	color: #4a4a4a;
+	text-decoration: none;
+}
+

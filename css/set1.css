@@ -6,11 +6,12 @@
 
 .grid {
 	position: relative;
-	margin: 0 auto;
-	padding: 5em 0 4em;
-	max-width: 1440px;
+	margin-top:10px;
+	float: left;
+	
 	list-style: none;
 	text-align: center;
+
 }
 
 /* Common style */
@@ -18,11 +19,11 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px 1%;
-	min-width: 320px;
-	max-width: 480px;
-	max-height: 360px;
-	width: 31%;
+	margin: 5px 0.5%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 32.3%;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
@@ -91,12 +92,16 @@
 /* Individual effects */
 figure.effect-bubba {
 	background: #9e5406;
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 0.2em;
 }
 
 figure.effect-bubba img {
 	opacity: 0.7;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
+	font-family: 'Poiret One', cursive;
+	letter-spacing: 0.2em;
 }
 
 figure.effect-bubba:hover img {
